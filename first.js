@@ -27,7 +27,7 @@ console.log(`%c لقد حصلت على امتياز 🥳` , "color: red; backgro
 
     console.log(`%c لقد حصلت على ضعيف☹️` , "color: red; background: white;");
 
- } else {
+ } else if (grade <50) {
 
     console.log(`%c راسب💔` , "color: red; background: white;" );
 
